@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> ePortfolio </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        
+        <!-- mobile specific info ... mobile specify windows size to 800/900 whereas device-width is less in general, resulting in small texte etc.- those meta correct this... -->
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
+        <!-- end mobile specific info -->
+        <link rel="stylesheet" type="text/css" href="styleCSS/style.css" />
+        	</head>
+	<body ontouchstart=""> 
+		
+		<div id="globale">	
+			
+			<header> <!-- balise html5 equivalant à <div id="header"> -->
+				<div id="logo">
+				</div>
+				<div id="nom">
+					<h1>ePortfolio de Bilal Hamiche</h1>
+					<p> Etudiant en Informatique </p>
+				</div>
+			</header>
+			
+			
+			<div style="clear:both"></div> <!-- pour renitialiser systeme de foats et d'en faire un autre -->
+			<nav>
+				<div id="menu">
+					<ul>
+						<li><a href="accueil.html">Accueil</a> </li>
+						<li><a href="competences.html">Compétences</a></li>
+						<li><a href="experiences.html">Expériences</a></li>
+						<li class="active">
+						<a href="loisirs.html">Loisirs</a>
+						</li>
+					</ul>
+					<ul id="snav">
+								<li><a href="loisirs.html">Football</a></li>
+								<li><a href="loisirs.html">Jeux video</a></li>
+								<li><a href="loisirs.html">marathon</a></li>
+					</ul>
+					
+					<!-- </li></ul> -->
+				</div> <!-- fin id=menu -->
+			</nav>
+			
+			<div id="page">
+				
+				<section id="sec1">
+				<h1> Bienvenue dans la section ou je présente ma Musique !</h1>
+				<p> Je poste ici toutes mes création musicales et mes clips, profitez bien.</p>
+				
+				<article>
+				<h1> Ma musique </h1>
+					<p> L'une de mes musiques préféré.  <p>  <a href="https://www.youtube.com/watch?v=wSjoik5zUZU">https://www.youtube.com/watch?v=wSjoik5zUZU</a> </p>
+					<audio  loop="loop" controls="controls" > <!-- autoplay="autoplay" -->
+					<source src="G:\ePortfoli\videos\Sadek - Mektoub - Clip Officiel Les Frontieres Du Reel.mp3" type="audio/mp3" />
+					<source src="G:\ePortfoli\videos\Sadek - Mektoub - Clip Officiel Les Frontieres Du Reel.ogg" type="audio/ogg" />
+
+					PB Audio 
+					</audio>
+				</article>
+				<article>
+				<h1> Clip Video de fractales dégénérées</h1>
+					<p> Clip video généré numériquement par injection de portions de fractales cryptographiées et encapsulées dans une trame binnaire obscure. </p>
+					<video  loop="loop"  controls="controls"> 
+					<source src="./videos/small.mp4" type="video/mp4"/> 
+					<source src="./videos/small.flv" type="video/x-flv"/> 
+					<source src="./videos/small.3gp" type="video/3gp"/> 
+					<source src="./videos/small.ogv" type="video/ogg"/> 
+
+					PB video </video>
+
+				</article>
+								<article>
+				<h1> Concert de L'IUT le samedi 1er Avril </h1>
+					<p> Concert enregistré à l'IUT ou tout est super. Compatibility: see <a href="http://en.wikipedia.org/wiki/HTML5_Audio">http://en.wikipedia.org/wiki/HTML5_Audio</a> </p>
+					<audio  loop="loop" controls="controls" > <!-- autoplay="autoplay" -->
+					<source src="./videos/roro.mp3" type="audio/mpeg" />
+					<source src="./videos/roro.ogg" type="audio/ogg" />
+
+					PB Audio 
+					</audio>
+				</article>
+								<article>
+				<h1> Concert de L'IUT le samedi 1er Avril </h1>
+					<p> Concert enregistré à l'IUT ou tout est super. Compatibility: see <a href="http://en.wikipedia.org/wiki/HTML5_Audio">http://en.wikipedia.org/wiki/HTML5_Audio</a> </p>
+					<audio  loop="loop" controls="controls" > <!-- autoplay="autoplay" -->
+					<source src="./videos/roro.mp3" type="audio/mpeg" />
+					<source src="./videos/roro.ogg" type="audio/ogg" />
+
+					PB Audio 
+					</audio>
+				</article>
+                <article>
+                    <p> test your web site mobile compatibility:</p>
+                <a href="http://www.browserstack.com/responsive"> http://www.browserstack.com/responsive</a>
+                    <p>site favicon: </p>
+                    <a href="http://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-for-a-website">http://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-for-a-website</a>
+                     <p> iPhone safari Official developper reference Manual </p>
+                    <a href="https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/" > iPhone</a>
+                    
+                    
+                </article>
+				
+		</section>
+			</div> <!-- fin id="page"-->
+			
+			<footer><p>-----------------fin-----------------</p>
+			</footer>
+			
+		</div> <!-- fin id="globale"-->
+	</body>
+</html>

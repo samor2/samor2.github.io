@@ -1,0 +1,34 @@
+/*fichier css*/
+
+/*global css*/
+* {
+	box-sizing : border-box;
+	border : 0;
+	margin: 0;
+	padding: 0;
+	font-size:100%;
+}
+
+h1 {
+	color:blue;
+}
+
+a {
+	text-transform:lowercase;
+	text-decoration:none;
+}
+
+/* entete header*/
+header {
+	border-color : blue;
+}	
+
+#nom {
+	float : left;
+	width : 30%;
+}
+
+#logo {
+	float : left;
+	width : 60%
+}
